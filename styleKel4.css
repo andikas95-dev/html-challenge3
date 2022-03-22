@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "helvetica";
+  src: url("Helvetica.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica", arial, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container-list-car {
+  width: 1100px;
+  background-color: #e5e5e5;
+  padding-left: 25px;
+  padding-top: 27px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+.container-list-car .btn-group button {
+  font-size: 14px;
+}
+
+span.list-car {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 27px;
+}
+
+.btn.btn-primary {
+  background-color: #0d28a6;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  width: 142px;
+}
+
+.btn.btn-outline-primary {
+  border: 1px solid #aeb7e1;
+  color: #aeb7e1;
+  border-radius: 2px;
+  font-weight: 700;
+  background-color: white;
+  margin-right: 16px;
+}
+
+.btn.btn-outline-primary:hover {
+  color: #0d28a6;
+  background-color: #cfd4ed;
+}
+
+.list-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 351px;
+  height: 482px;
+  margin-top: 32px;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.card .card-body h5.card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 47px;
+}
+
+.card .card-body h6 {
+  margin-bottom: 1rem;
+}
+
+.card .card-body .btn-group button img {
+  padding: 0 7px;
+}
+
+.card .card-body p.card-text img {
+  padding-right: 9.5px;
+}
+
+.btn.btn-danger {
+  width: 143.5px;
+  height: 48px;
+  background-color: white;
+  color: red;
+  font-weight: 700;
+  padding: 8px 12px;
+  margin-right: 16px;
+}
+.btn.btn-danger:hover {
+  background-color: white;
+  color: red;
+}
+.btn.btn-success {
+  width: 143.5px;
+  height: 48px;
+  background-color: #5cb85f;
+  color: white;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+.btn.btn.btn-success:hover {
+  background-color: #5cb85f;
+  color: white;
+}
